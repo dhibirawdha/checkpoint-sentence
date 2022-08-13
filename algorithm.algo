@@ -1,0 +1,29 @@
+algorithm sentence 
+var c:char;
+var Nc ,Nw,Nv :integer;
+Nc := 0;
+Nw := 0;
+Nv := 0;
+
+begin
+      REPEAT
+        write ("enter a sentence");
+        read (c);
+      UNTIL (c:=" "or c:= ".");
+        Nw := Nw +1; 
+        
+        IF( c="a"or c="e" or c="i"or c="o"or c="u"or c="y") THEN
+        write ("vowel number");
+            Nv:=Nv+1;
+        
+            
+        ELSE
+    
+        Nc:=Nc+1;
+            
+        
+        END_IF
+        
+    
+    
+end    
